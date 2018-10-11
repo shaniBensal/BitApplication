@@ -1,0 +1,41 @@
+ .edit-input{
+    background-color: #546674d9; 
+    padding: 0px 30px;
+    margin: 10px 0px;
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.form{
+    width: 100%;
+}
+
+.submit {
+    text-align: center;
+    background-color: #9E4770;
+    width: 30%;
+    padding: 0px;
+    cursor: pointer;
+    position: relative;
+    left: 70%;
+    border-radius: 25px;
+}
+
+.back{
+    background-color: black;
+    text-align: right;
+    padding: 10px 10px 10px 0px;
+}
+
+.back a:hover{
+    color: #9E4770;
+    cursor: pointer;    
+}
+
+.edit-contact img{
+    position: relative;
+    left: 40%;
+    border-radius: 50px;
+}

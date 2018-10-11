@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.nav-bar-main ul{
+    /* font-size: 30px; */
+    display: flex;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.nav-bar-main li{
+    font-size: 25px;
+    margin: 0px 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-bar-main a{
+    color: white;
+    text-align: center;
+}
+
+.nav-bar-main .router-link-active{
+    color: #9E4770;
+}
+
+.nav-bar-main a:hover{
+   color: #9E4770;
+}

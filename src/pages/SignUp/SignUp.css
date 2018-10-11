@@ -1,0 +1,25 @@
+.SignUp{
+    text-align: center;
+}
+
+.submit {
+    text-align: center;
+    background-color: #9E4770;
+    width: 30%;
+    padding: 0px;
+    cursor: pointer;
+    position: relative;
+    left: 25%;
+    border-radius: 25px;
+}
+
+.sign-up{
+    width: 80%;
+    background-color: #546674d9; 
+    padding: 0px 30px;
+    margin: 10px 0px;
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}

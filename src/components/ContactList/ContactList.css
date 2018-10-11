@@ -1,0 +1,27 @@
+.contacts-list-item {
+  margin: 0px; 
+}
+
+.add-contact-button{
+  border-radius: 50%;
+  float: right;
+  background-color: #888888;
+  height: 46px;
+  width: 46px;
+  position: sticky;
+  z-index: 1;
+  bottom: 50px;
+  left: 15px;
+}
+
+.add-contact-button a{
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-contact-button:hover{
+  background-color: #9E4770;
+}

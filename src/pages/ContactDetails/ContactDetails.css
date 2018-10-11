@@ -1,0 +1,32 @@
+.contact-details-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px; 
+}
+.contact-details-header a:not(:last-child) {
+  margin: 0 10px 0 0; 
+}
+
+.contact-details .contact-details-row {
+  margin: 10px 0 0 0; 
+}
+
+.moves-list-container, .transter-coins-container {
+  margin: 20px 0;
+}
+.contact-details-body{
+  text-align: center;
+  font-size: 1.5em;
+}
+.details-links{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+
+.details-links a:hover{
+  color: #9E4770;
+  cursor: pointer;    
+}
