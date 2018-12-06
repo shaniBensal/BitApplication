@@ -2,7 +2,7 @@
   "name": "mister-bitcoin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shaniBensal.github.io/BitApplication",
+  "homepage": "http://gitname.github.io/myLocations",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.5",
     "@fortawesome/free-solid-svg-icons": "^5.4.0",
@@ -32,6 +32,7 @@
     "file-loader": "1.1.5",
     "font-awesome": "^4.7.0",
     "fs-extra": "3.0.1",
+    "google-map-react": "^1.1.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "mobx": "^5.0.4",
@@ -45,6 +46,8 @@
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.4.2",
     "react-fontawesome": "^1.6.1",
+    "react-google-map": "^3.1.1",
+    "react-google-maps": "^9.4.5",
     "react-router-dom": "^4.3.1",
     "react-sparklines": "^1.7.0",
     "resolve": "1.6.0",
@@ -108,5 +111,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }

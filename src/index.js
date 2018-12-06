@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//CSS
+import './index.css';
+//Render App
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorker from './serviceWorker';
+
+//Add Store to the App
 import RootStore from './store/RootStore'
-import './assets/styles.css'
-import { observable } from 'mobx';
+
+// import { observable } from 'mobx';
 import { Provider } from 'mobx-react';
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
-
-
 const store = new RootStore();
+
+//Provider warp the entire App with the store
 
 ReactDOM.render(
   <Provider store={store}>
@@ -18,6 +22,9 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-registerServiceWorker();
+serviceWorker.unregister();
+
+
+
 
 

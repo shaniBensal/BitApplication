@@ -1,16 +1,17 @@
-import UserStore from './UserStore';
-import ContactStore from './ContactStore';
-import BitcoinStore from './BitcoinStore';
+//create modules to each issue
+import LocationModule from './LocationModule';
+import CategoryModule from './CategoryModule';
 
-import UserService from '../services/UserService';
-import ContactService from '../services/ContactService';
-import BitcoinService from '../services/BitcoinService';
+//connect each modules to each service
+import LocationService from '../services/locationService';
+import CategoryService from '../services/categoryService';
 
 class RootStore {
   constructor() {
-    this.contactStore = new ContactStore(this, ContactService);
-    // this.bitcoinStore = new BitcoinStore(this, BitcoinService);
-    this.userStore = new UserStore(this, UserService);
+    this.locationModule = new LocationModule(this, LocationService);
+    this.categoryModule = new CategoryModule(this, CategoryService);
   }
 }
 export default RootStore;
+
+//Root Store unify both moduels to one
